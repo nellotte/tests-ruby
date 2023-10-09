@@ -15,10 +15,3 @@ end
 
 reverse_upcase_noLTA("Tries this at Home, Kids")
 
-upcase_string =str.upcase
-no_LTA_string = upcase_string.delete("LTA")
-split_string = no_LTA_string.split("")
-reverse_string = split_string.reverse
-new_string = reverse_string.join("")
-
-return new_string
